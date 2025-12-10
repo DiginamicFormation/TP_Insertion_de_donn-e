@@ -1,0 +1,6 @@
+--Objectifs du TP
+--Apprendre à écrire des requêtes SQL avec les diverses clauses possibles :
+--WHERE
+--ORDER BY
+--GROUP BY
+--HAVING

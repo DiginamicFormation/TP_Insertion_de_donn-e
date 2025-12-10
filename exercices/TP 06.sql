@@ -1,2 +1,0 @@
--- a. Supprimer dans la table compo toutes les lignes concernant les bons de commande d'avril 2019
--- b. Supprimer dans la table bon tous les bons de commande d'avril 2019.
