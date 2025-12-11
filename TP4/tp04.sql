@@ -33,8 +33,7 @@ FROM ARTICLE
 WHERE LOWER(DESIGNATION) LIKE '%sachet%';
 
 -- Question 2f: Listez les articles avec les informations fournisseur correspondantes
--- Les résultats doivent être triés dans l'ordre alphabétique des fournisseurs et par article du prix le plus élevé au moins élevé
--- EXPLICATION: Jointure entre ARTICLE et FOURNISSEUR, avec double tri
+
 SELECT ARTICLE.*, FOURNISSEUR.NOM as NOM_FOURNISSEUR
 FROM ARTICLE
 INNER JOIN FOURNISSEUR ON ARTICLE.ID_FOU = FOURNISSEUR.ID
